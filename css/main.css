@@ -270,17 +270,17 @@ section{
     opacity: 0.7;
 }
 
-/* team */
-.team .row{
+/* Hostels */
+.hostels .row{
     margin-top: 2rem;
 }
-.team-item{
+.hostels-item{
     margin: 2rem 0;
 }
-.team-img{
+.hostels-img{
     position: relative;
 }
-.team-icons{
+.hostels-icons{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -290,29 +290,29 @@ section{
     opacity: 0;
     transition: var(--transition);
 }
-.team-icons a{
+.hostels-icons a{
     color: var(--night-rider);
     width: 50px;
     height: 50px;
     transition: var(--transition);
 }
-.team-icons a:hover{
+.hostels-icons a:hover{
     background: var(--mount-meadow);
     color: #fff;
 }
-.team-img:hover .team-icons{
+.hostels-img:hover .hostels-icons{
     opacity: 1;
 }
-.team-info{
+.hostels-info{
     text-align: center;
     padding: 1.5rem;
     line-height: 1;
 }
-.team-info h3{
+.hostels-info h3{
     font-size: 1.4rem;
     color: var(--night-rider);
 }
-.team-info span{
+.hostels-info span{
     font-size: 0.85rem;
     letter-spacing: 1px;
     font-weight: 500;
@@ -353,59 +353,59 @@ section{
     padding: 0.6rem 1.8rem;
 }
 
-/* pricing */
-.pricing .row{
+/* ngoing */
+.ngoing .row{
     margin-top: 2rem;
 }
-.pricing-item{
+.ngoing-item{
     border: 2.5px solid #f9f9f9;
     text-align: center;
     padding: 3.4rem 0;
     margin: 2rem 0;
 }
-.pricing-item h2{
+.ngoing-item h2{
     color: var(--night-rider);
     opacity: 0.7;
     font-size: 1.5rem;
 }
-.pricing-item .price{
+.ngoing-item .ngo{
     padding: 1.5rem 0 1rem 0;
     line-height: 1.1;
 }
-.pricing-item .price span{
+.ngoing-item .ngo span{
     display: block;
 }
-.pricing-item .price span:first-child{
+.ngoing-item .ngo span:first-child{
     font-size: 2.6rem;
     letter-spacing: 2px;
     color: var(--mount-meadow);
 }
-.pricing-item .price span:last-child{
+.ngoing-item .ngo span:last-child{
     font-size: 0.85rem;
     letter-spacing: 1;
     font-weight: 500;
 }
-.pricing-item ul li{
+.ngoing-item ul li{
     padding: 0.8rem 0;
     opacity: 0.7;
 }
 
-/* testimonial */
-.testimonial{
-    background-image: linear-gradient(rgba(27, 188, 156, 0.8), rgba(27, 188, 156, 0.9)), url(../assets/testimonial-bg.jpg);
+/* teams */
+.teams{
+    background-image: linear-gradient(rgba(27, 188, 156, 0.8), rgba(27, 188, 156, 0.9)), url(../assets/annie-spratt-sggw4-qDD54-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-.testimonial .title h2,
-.testimonial .title{
+.teams .title h2,
+.teams .title{
     color: #fff;
 }
-.testimonial .row{
+.teams .row{
     margin-top: 2rem;
 }
-.testimonial-img{
+.teams-img{
     border: 4px solid #fff;
     width: 120px;
     height: 120px;
@@ -413,18 +413,18 @@ section{
     margin: 2.5rem auto;
     padding: 0.5rem;
 }
-.testimonial-img img{
+.teams-img img{
     border-radius: 50%;
 }
-.testimonial-item{
+.teams-item{
     text-align: center;
 }
-.testimonial-item p{
+.teams-item p{
     font-size: 1.3rem;
     color: var(--white-smoke);
     line-height: 1.7;
 }
-.testimonial-item span{
+.teams-item span{
     margin-top: 0.7rem;
     display: block;
     font-size: 1.1rem;
@@ -541,7 +541,7 @@ section{
         width: 75%;
         margin: 0 auto;
     }
-    .team-item{
+    .hostels-item{
         margin: 0;
     }
     .faq .row{
@@ -549,15 +549,15 @@ section{
         margin-left: auto;
         margin-right: auto;
     }
-    .pricing .row{
+    .ngoing .row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
-    .pricing-item{
+    .ngoing-item{
         margin: 0;
     }
-    .testimonial-item p{
+    .teams-item p{
         width: 75%;
         margin-left: auto;
         margin-right: auto;
@@ -647,10 +647,10 @@ section{
     .detail .row{
         grid-template-columns: repeat(3, 1fr);
     }
-    .pricing .row{
+    .ngoing .row{
         grid-template-columns: repeat(3, 1fr);
     }
-    .testimonial-item p{
+    .teams-item p{
         width: 60%;
     }
     .contact .row{

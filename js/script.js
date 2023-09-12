@@ -33,8 +33,8 @@ $(document).ready(function(){
         });
     });
 
-    // team carousel 
-    $('.team .owl-carousel').owlCarousel({
+    // hostels carousel 
+    $('.hostels .owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
         autoplay: true,
@@ -68,8 +68,8 @@ $(document).ready(function(){
         });
     });
 
-    // testimonial carousel 
-    $('.testimonial .owl-carousel').owlCarousel({
+    // teams carousel 
+    $('.teams .owl-carousel').owlCarousel({
         loop: true,
         autoplay: true,
         dots: true,
